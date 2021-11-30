@@ -65,6 +65,8 @@ function submit(){
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
   xhr.send(JSON.stringify(data));
 
+  window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  
 }
 
 document.getElementById("canvas").addEventListener("mousedown", start);
