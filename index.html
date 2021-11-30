@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nothing</title>
+    </head>
+    <body style="background-color: black; color: azure;">
+        <div id="draw_area">
+            <canvas id="canvas" style=" width: 1280px;
+            height: 720px;"></canvas>
+        </div>
+        <div id="control">
+            <p>Only submit after you are done. Once you submit the frame there is <b> no </b> going back.</p>
+            <input type="text" id="name">
+            <button onclick="submit()"> <- enter your name and submit</button>
+            <input type="text" id="color">
+            <button onclick="s_color()"> <- change color (use hex color codes)</button>
+            <input type="text" id="width">
+            <button onclick="s_width()"> <- change stroke width</button>
+        </div>
+        <script src="script.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
