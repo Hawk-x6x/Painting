@@ -35,7 +35,7 @@ function rgbToSTR(r, g, b) {
 }
 
 const canvas = document.getElementById("canvas");
-const link = "https://2846-46-190-9-210.ngrok.io/";
+const link = "https://dfc7-37-6-201-195.ngrok.io/";
 startup();
 canvas.style = "background-color: " + "white" + ";";
 const ctx = canvas.getContext("2d");
